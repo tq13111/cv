@@ -6,8 +6,8 @@ let string = `/*你好,我叫小新
  */
 #div1{
     border: 1px solid red;
-    width: 400px;
-    height: 400px;
+    width: 240px;
+    height: 240px;
 }
 /*接下来把div变成一个八卦图
  *注意看好了
