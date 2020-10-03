@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <title>田琦的简历</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <style id="style"></style>
@@ -14,53 +15,7 @@
     <div id="divWrapper">
       <div id="div1"></div>
     </div>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      body {
-        font-size: 16px;
-        color: rgb(58, 217, 245);
-        word-break: break-all;
-        background-color: #eee;
-      }
-      #div1 {
-        position: fixed;
-        right: 20px;
-        top: 20px;
-      }
-      #div1::before {
-        content: "";
-        display: block;
-        position: absolute;
-      }
-      #div1::after {
-        content: "";
-        display: block;
-        position: absolute;
-      }
-      @media (max-width: 500px) {
-        #html {
-          height: 50vh;
-          overflow: auto;
-        }
-        #divWrapper {
-          width: 100%;
-          height: 50vh;
-          position: relative;
-        }
-        #div1 {
-          width: 240px;
-          height: 240px;
-          position: absolute;
-          left: 50%;
-          top: 50%;
-          margin-left: -120px;
-          margin-top: -120px;
-        }
-      }
-    </style>
+
     <script src="main.js"></script>
   </body>
 </html>
